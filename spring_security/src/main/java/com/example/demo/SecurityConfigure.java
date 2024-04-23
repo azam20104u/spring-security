@@ -39,6 +39,7 @@ public class SecurityConfigure{
 //		return new InMemoryUserDetailsManager(users);
 //	}
 	
+	//DB authentication
 	@Autowired
 	private UserDetailsService userDetailsService;
 	@Bean
